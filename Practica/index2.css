@@ -1,0 +1,51 @@
+/*
+ index2: Rayo MacQeen
+
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+img{
+    float: left;
+    margin-right: 20px;
+    width: 50%;
+    border: 5px double;
+}
+
+.br{
+    margin-left: 30px;
+}
+
+
+.MenuH{
+    overflow: hidden;
+    border: 5px double;
+      position: fixed;
+
+}
+
+.parrafo{
+    text-align: justify;
+}
+
+
+.MenuH a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+}
+
+.MenuH a:hover{
+    background-color: white;
+    color: red;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+}

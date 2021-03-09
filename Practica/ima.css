@@ -1,0 +1,66 @@
+/*
+codigo css ima.css
+*/
+header,footer{
+	background-color: white;
+	border-style: solid;
+	border-radius: 20px;
+	padding: 5px;
+	text-align: center;
+}
+
+.titulo{
+     text-align: left;
+     text-align: justify;
+
+}
+
+.texto{
+     text-align: justify;
+}
+
+body{
+     background-image: 
+     url(img/4.jpg);
+     background-position:center
+     center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+}
+.main{
+	height: 1200px;
+
+}
+.imagenV{
+     color: black;
+     border: 5px double;
+     text-align: center;
+
+}
+
+.MenuH{
+    overflow: hidden;
+    border: 5px double;
+    color: white;
+}
+
+
+.MenuH a{
+     background-color: black;
+    color: white;
+    text-decoration: none;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+}
+
+.MenuH a:hover{
+     background-color: white;
+     color: red;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+}
+
